@@ -3,10 +3,16 @@
   - Linus Torvalds가 화나서 1주일 만에 만든 최고의 버전관리 도구
   - 장점 : 분산형 저장소 지원, 비선형적 개발 가능
     
+- 저장소 운용할 때 잊으면 안되는 것
+  - REDEME.md
+  - .gitignore
+  - 컴퓨터에서 첫 git push 할 때 계정 비밀번호가 아닌 Personal Access Token발급받아서 사용하기(보안을 위해선.. 만료일지정할것)
+
+
 - git clone
   - clone 할 때 로컬에서 위치 dev인지 꼭 확인할것
 
--add, commit, push
+- add, commit, push
   - add 할 때 지금 단위에 들어가야 하는 파일인지 구분해서 올리기
   - commit 할 때 conventional commit 지키기
     - prefiz : 커밋의 종류(feat, fix, docs, refactor, conf, chore, style, ci, build)
@@ -16,8 +22,12 @@
  - branch
    - 특정한 시점으로부터 코드가 독립적으로 존재할 수 있도록 만들어 주는 모델
 
-  ## 내일 배울것
 
-  -merge conflict
-  -git 사용중 발생하는 다양한 상황 해결하기
-  -collaboration
+  ## 내일 배울것
+  - merge conflict
+  
+  - git 사용중 발생하는 다양한 상황 해결하기
+  
+  - collaboration
+
+
